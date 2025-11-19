@@ -1,0 +1,150 @@
+.register-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-actions button {
+    flex: 1; 
+    width: auto; 
+}
+
+.register-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(197, 98, 98, 0.25);
+  width: 100%;
+  max-width: 450px;
+  backdrop-filter: blur(10px);
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.register-header h1 {
+  font-size: 1.7rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.register-header p {
+  color: #718096;
+  line-height: 1.5;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 300;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn-full {
+  width: 40%;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 2px;
+  font-size: 0.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #5a6fd8;
+}
+
+.btn-primary:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+.register-footer {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.register-footer p {
+  color: #718096;
+}
+
+.link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background: #fed7d7;
+  color: #c53030;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .register-card {
+    padding: 2rem;
+    margin: 10px;
+  }
+  
+  .register-header h1 {
+    font-size: 1.5rem;
+  }
+}
