@@ -1,4 +1,4 @@
-#ChamaPro - Group Financial Management Platform
+# ChamaPro - Group Financial Management Platform
 
 #A comprehensive web application for managing group finances, contributions, loans, and member interactions for Chamas (community savings groups).
 
